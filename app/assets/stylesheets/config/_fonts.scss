@@ -16,6 +16,6 @@ $headers-font: "Nunito", "Helvetica", "sans-serif";
 // $my-font: "Font Name";
 @font-face {
   font-family: "March Personal Use";
-  src: font-url('../fonts/March Clean.ttf');
+  src: font-url('March_Clean.ttf') format('truetype')
 }
 $march: "March Personal Use";
