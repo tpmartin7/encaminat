@@ -3,3 +3,19 @@ body {
   background-color: $gray;
 }
 
+.landing-banner {
+  background-image: linear-gradient(to bottom, rgba(200, 200, 200, 0.55), rgba(200, 200, 200, 0.55)),
+  url("banner.png");
+  background-position: center;
+  background-size: cover;
+  height: 175px;
+}
+
+.lb-text {
+  height: 175px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: $dblue;
+  font-weight: bold;
+}
