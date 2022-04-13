@@ -1,0 +1,28 @@
+.landing-card {
+  overflow: hidden;
+  background-color: $dblue;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  width: 200px;
+  margin: 10px;
+  height: 250px;
+  color: white;
+  p {
+    font-family: $acherus;
+    font-size: .65em;
+  }
+}
+
+.landing-card-image {
+  background-color: $lblue;
+  height: 125px;
+}
+
+.landing-card-button {
+  background-color: $yellow;
+  color: $dblue;
+  width: 125px;
+  height: 30px;
+  line-height: 33px;
+  font-weight: 900;
+  font-size: .8em;
+}
